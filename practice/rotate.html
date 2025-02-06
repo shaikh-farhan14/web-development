@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practice of rotate</title>
+    <style>
+        .box{
+            width: 100px;
+            height: 100px;
+            background-color: green;
+            margin: 20px;
+            display: inline-block;
+            text-align: center;
+            line-height: 100px;
+            color: black;
+            font-weight: bold;
+            transition: transform 0.5s;
+        }
+        .rotate_45{
+            transform: rotate(45deg);
+        }
+        .rotate_90{
+            transform: rotate(90deg);
+        }
+        .rotate_negative{
+            transform: rotate(-45deg);
+        }
+    </style>
+</head>
+<body>
+    <h1 class="text">
+        Opacity example
+    </h1>
+    <div class="box rotate">Normal</div>
+    <div class="box rotate_45">45° normal</div>
+    <div class="box rotate_90">90° normal</div>
+    <div class="box rotate_negative">-56° normal</div>
+</body>
+</html>
