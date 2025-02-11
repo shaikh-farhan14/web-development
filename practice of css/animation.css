@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+/* nothing */
+.Nothing {
+    text-transform: capitalize;
+    font-size: 70px;
+    font-family: Ubuntu;
+    font-weight: 700;
+    text-align: center;
+}
+
+.Nothing {
+    animation-name: Nothing;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    background-color: red;
+    color: black;
+}
+
+@keyframes Nothing {
+    from {
+        translate: 200vw 0;
+        scale: 200% 1;
+    }
+
+    to {
+        translate: 0 0;
+        scale: 100% 1;
+    }
+}
+
+/* animation class  */
+.animation {
+    animation-name: Jojo;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    text-align: center;
+    font-size: 90px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: Ubuntu;
+    background-color: deepskyblue;
+    color: black;
+}
+
+@keyframes Jojo {
+    from {
+        translate: -200vw 0;
+        scale: 200% 1;
+    }
+
+    to {
+        translate: 0 0;
+        scale: 100% 1;
+    }
+}
