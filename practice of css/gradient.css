@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.gradient_logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150vh;
+    background: linear-gradient(to top left, red, blue);
+}
+
+.gradient_logo>img {
+    /* border: 4px solid red; */
+    width: 700px;
+    height: 600px;
+    background: linear-gradient(to bottom right, yellow, green);
+    color: transparent;
+}

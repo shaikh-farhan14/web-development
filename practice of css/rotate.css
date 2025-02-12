@@ -1,0 +1,17 @@
+img {
+    animation-name: logo;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-duration: 6s;
+    animation-timing-function: linear
+}
+
+@keyframes logo {
+    from {
+        transform: rotate(0deg)
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
