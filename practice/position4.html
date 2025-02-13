@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+      <style>
+        .container {
+          position: relative; /* Makes this the reference for absolute child */
+          width: 300px;
+          height: 200px;
+          background: lightgray;
+        }
+        .absolute {
+          position: absolute;
+          top: 50px;
+          left: 50px;
+          background: green;
+        }
+      </style>
+<body>
+    <div class="container">
+        <div class="box absolute">Absolute Position</div>
+      </div>
+      
+</body>
+</html>
