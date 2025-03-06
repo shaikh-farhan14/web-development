@@ -1,0 +1,18 @@
+img {
+    width: 150px;
+    height: 150px;
+
+}
+
+dropdown>select {
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 10px;
+}
+.profile{
+    width: 45%;
+}
+nav{
+    display: flex;
+    justify-items: center;
+}
