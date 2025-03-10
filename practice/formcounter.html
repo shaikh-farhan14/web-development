@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>counter in CSS</title>
+    <style>
+        body{
+            counter-reset: value;
+        }
+        .text:hover{
+            font-size: 100px;
+        }
+        h2::before{
+            counter-increment: value;
+            content: "step" counter(value) ":-";
+        }
+        .content:hover{
+            font-size: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 class="text">Using CSS Counters</h1>
+
+    <div class="content">
+    <h2>HTML Tutorials</h2>
+    <h2>CSS Tutorials</h2>
+    <h2>Javascript Tutorials</h2>
+    <h2>Python Tutorials</h2>
+    <h2>SQL Tutorials</h2>
+    </div>
+</body>
+</html>
