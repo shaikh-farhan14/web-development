@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pagination</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-size: 30px;
+            font-weight: 600;
+            background: lightblue;
+        }
+        body{
+            height: 100vh;
+        }
+        .container{
+            border: 1px solid red;
+            border-radius: 10px;
+            border: 7px solid grey;
+            height: 30%;
+            position: relative;
+            display: grid;
+            grid-template-columns: repeat(12,100px);
+            justify-self: center;
+            align-items: center;
+            gap: 10px;
+            top: 50%;
+            left: 47%;
+            transform: translate(-50%,-50%);
+            background: white;
+        }
+        button{
+            height: 35%; 
+            background: transparent;
+            border: 1px solid grey;
+            border: none;
+            height: auto;
+            color: gray;
+        }
+        img{
+            width: 30px;
+            height: 30px;
+            background: white
+        }
+        .left_arrow,.right_arrow{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            opacity: 0.1;
+            background: whitesmoke;
+            border-radius: 100%;
+            margin: auto 23px;
+        }
+        .left_arrow > img,
+        .right_arrow > img {
+            border-radius: 100%;
+            mix-blend-mode: color-burn;
+        }
+        .left_arrow{
+            rotate: 180deg;
+        }
+        .left_arrow:hover,
+        .right_arrow:hover{
+            opacity: 1;
+        }
+        .logo{
+            width: 100px;
+            height: 100px;
+            margin: auto;
+        }
+        .logo > img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            position: absolute;
+            top: 15%;
+        }
+        .active{
+            color: black;
+        }
+        .active::after{
+            content: "";
+            background: black;
+            margin: auto;
+            width: 25px;
+            height: 4px;
+            display: flex;
+            gap: 10px;
+            flex-direction: column;
+        }
+        .btn:hover::after{
+            content: "";
+            background: black;
+            margin: auto;
+            width: 25px;
+            height: 4px;
+            display: flex;
+            gap: 10px;
+            flex-direction: column;
+            color: black;
+        }
+        .btn:hover{
+            color: black;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="logo">
+        <img src="../utils/ferrari-ges-logo-svgrepo-com.svg" alt="">
+    </div>
+    <div class="container">
+        <button class="left_arrow">
+            <img src="../utils/left-arrow.svg" alt=" left_arrow">
+        </button>
+        <button class="active">1</button>
+        <button class="btn">2</button>
+        <button class="btn">3</button>
+        <button class="btn">4</button>
+        <button class="btn">5</button>
+        <button class="btn">6</button>
+        <button class="btn">7</button>
+        <button class="btn">8</button>
+        <button class="btn">9</button>
+        <button class="btn">10</button>
+        <button class="right_arrow">
+            <img src="../utils/left-arrow.svg" alt="left arrow">
+        </button>
+    </div>
+</body>
+</html>
