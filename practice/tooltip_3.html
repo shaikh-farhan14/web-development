@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Top tooltip</title>
+  </head>
+  <style>
+    .tooltip {
+      position: relative;
+      display: inline-block;
+      border-bottom: 1px dashed goldenrod;
+    }
+
+    .tooltip .tooltiptext {
+      visibility: hidden;
+      width: 120px;
+      background-color: blue;
+      color: white ;
+      text-align: center;
+      border-radius: 6px;
+      padding: 2px ;
+      position: absolute;
+      z-index: 1;
+      bottom: 105%;
+      left: -9%;
+    }
+
+    .tooltip:hover .tooltiptext {
+      visibility: visible;
+    }
+    .tooltip{
+        font-weight: bolder;
+    }
+  </style>
+  <body style="text-align: center">
+    <h2>Top Tooltip</h2>
+    <div class="tooltip">
+       put the cursour
+      <span class="tooltiptext">One piece</span>
+    </div>
+  </body>
+</html>

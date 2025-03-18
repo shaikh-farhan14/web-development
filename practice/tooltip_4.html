@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>bottom tooltip</title>
+  </head>
+  <style>
+    .tooltip {
+      position: relative;
+      display: inline-block;
+      border-bottom: 1px dotted blueviolet;
+    }
+
+    .tooltip .tooltiptext {
+      visibility: hidden;
+      width: 120px;
+      background-color: yellow;
+      color: black;
+      text-align: center;
+      border-radius: 6px;
+      padding: 7px 0;
+      position: absolute;
+      z-index: 1;
+      top: 105%;
+      left: -41%;
+    }
+
+    .tooltip:hover .tooltiptext {
+      visibility: visible;
+    }
+    .tooltip {
+      font-weight: bolder;
+    }
+  </style>
+  <body style="text-align: center">
+    <h2>Bottom Tooltip</h2>
+    <div class="tooltip">
+      Hover me
+      <span class="tooltiptext">mouse</span>
+    </div>
+  </body>
+</html>

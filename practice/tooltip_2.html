@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>right tooltip</title>
+  </head>
+  <style>
+    .tooltip {
+      position: relative;
+      display: inline-block;
+      border-bottom: 1px double black;
+    }
+
+    .tooltip .tooltiptext {
+      visibility: hidden;
+      width: 120px;
+      background-color: lightgreen;
+      color: black;
+      text-align: center;
+      border-radius: 6px;
+      padding: 5px 0;
+      position: absolute;
+      z-index: 1;
+      top: -5px;
+      left: 105%;
+    }
+
+    .tooltip:hover .tooltiptext {
+      visibility: visible;
+    }
+    .tooltip{
+        font-weight: bolder;
+    }
+  </style>
+  <body style="text-align: center">
+    <h2>Right Tooltip</h2>
+    <div class="tooltip">
+      Click here
+      <span class="tooltiptext">helloooo</span>
+    </div>
+  </body>
+</html>
