@@ -1,0 +1,17 @@
+* {
+    margin: 10px;
+    padding: 0;   
+}
+
+.heading{
+    padding-bottom: 20px;
+}
+.text_1{
+    padding-bottom: 20px;
+}
+.heading_2{
+    padding-bottom: 15px;
+}
+.para{
+    padding-top: 20px;
+}

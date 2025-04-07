@@ -43,7 +43,7 @@
 .images_logo{
     padding-top: 20px;
     display: flex;
-    gap: 80px;
+    gap: 210px;
     padding-bottom: 20px;
 }
 .information{
@@ -57,4 +57,11 @@
     justify-content: center;
     font-weight: bold;
     padding-top: 30px;
+}
+.Car_text{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    gap: 40px;
+    font-size: 11px;
 }
