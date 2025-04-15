@@ -91,9 +91,10 @@
     height: 30px; 
 }
 .info{
-   border: 1px solid black;
+   border: 1px solid rgb(66, 46, 46);
    height: 300px;
-   width: 400px; 
+   width: 400px;
+    
 }
 .right_side {
     border: 2px solid grey;
@@ -114,3 +115,50 @@
     border: none;
     border-radius: 5px;
 }   
+.info_2{
+    border: 1px solid rgb(66, 46, 46);
+   height: 300px;
+   width: 400px;
+}
+.videos{
+    display: flex;
+    justify-content: left;
+}
+.card_container{
+    background-color: lightcyan;
+    height: 400px;
+    text-align: center;
+    padding-top: 30px;
+}
+.head_4{
+    font-style: italic;
+    color: red;
+}
+.card_1{
+    height: 250px;
+    width: 190px;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 11px;
+}
+.card_2{
+    height: 250px;
+    width: 190px;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 12px;
+}
+.card_3{
+    height: 250px;
+    width: 190px;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 12px;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    text-align: center;
+}
