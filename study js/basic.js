@@ -40,25 +40,6 @@ for(let f=0;f<6;f++){
 /* console.log(f) */
 
 
-
-/* data types*/
-
- //Data types in js-classify the different kinds of value that variable can hold
-
- //primitive data types {immutable}
-/* String
-number
-Boolean
-null
-undefined
-BigInt
-Symbol */
-
-//non primitive datat type {mutable}
-/* Object
-Array */
-
-
 //primitive data types {immutable}
 let naam="zoro";
 
@@ -78,3 +59,10 @@ console.log(data);
 
 //const key word
 
+const naam33="hello";
+
+console.log(naam33);
+
+naam33="farhan";
+ 
+console.log(naam33);
