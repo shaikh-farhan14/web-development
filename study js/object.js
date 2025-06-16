@@ -21,7 +21,7 @@
 //     married:false,
 // }
 
-// dot operator
+// // dot operator
 
 // for (let key in car) {
 //     console.log("key", key);
@@ -55,17 +55,17 @@
 // data.myfunc()
 
 
-// let student={
-//     name:"fern",
-//     address:{
-//         city:"mumbai",
-//         state:"maharashtra",
-//         pincode:400065,
+// let student = {
+//     name: "fern",
+//     address: {
+//         city: "mumbai",
+//         state: "maharashtra",
+//         pincode: 400065,
 //     },
-//     grades:{
-//         math:90,
-//         science:80,
-//         social:70,
+//     grades: {
+//         math: 90,
+//         science: 80,
+//         social: 70,
 //     }
 // }
 
@@ -75,21 +75,34 @@
 // }
 
 
-let fruits={
-    name:"apple",
-    color:"red",
-    price:100,
-    quantity:5,
-    Option2:{
-        name:"Mango",
-        color:"yellow",
-        price:150,
-        quantity:7,
-    }
+// let fruits={
+//     name:"apple",
+//     color:"red",
+//     price:100,
+//     quantity:5,
+//     Option2:{
+//         name:"Mango",
+//         color:"yellow",
+//         price:150,
+//         quantity:7,
+//     }
+// }
+// for (let object in fruits) {
+//     console.log("object", object);
+//     console.log("value", fruits[object]);
+// }
+
+
+let character={
+    hero:"guts",
+    heroine:"casca",
+    villain:"griffith",
+    fantasy:"dark anime",
 }
-for (let object in fruits) {
-    console.log("object", object);
-    console.log("value", fruits[object]);
+
+for (let main in character) {
+    console.log("main", main);
+    console.log("", character[main]);
 }
 
 

@@ -36,50 +36,50 @@ switch (key) {
 // }      
 
 
-let grade = "E";
+// let grade = "E";
 
-switch (grade) {
-    case 'A':
-        console.log("Excellent")
-    case 'B':
-        console.log("Good")
-    case 'C':
-        console.log("Average")
-    case 'D':
-        console.log("Fail")
-    case 'E':
-        console.log("Fail")
-        break;
-    case 'F':
-        console.log("Fail")
-    default:
-        console.log("Fail")
-}
-
-// let month = 12;
-
-// switch (month) {
-
-//     case 12:
-//     case 1:
-//     case 2:
-//         console.log("Winter")
+// switch (grade) {
+//     case 'A':
+//         console.log("Excellent")
+//     case 'B':
+//         console.log("Good")
+//     case 'C':
+//         console.log("Average")
+//     case 'D':
+//         console.log("Fail")
+//     case 'E':
+//         console.log("Fail")
 //         break;
-//     case 3:
-//     case 4:
-//     case 5:
-//         console.log("Spring")
-//         break;
-//     case 6:
-//     case 7:
-//     case 8:
-//         console.log("Summer")
-//         break;
-//     case 9:
-//     case 10:
-//     case 11:
-//         console.log("Autumn")
+//     case 'F':
+//         console.log("Fail")
+//     default:
+//         console.log("Fail")
 // }
+
+let month = 11;
+
+switch (month) {
+
+    case 12:
+    case 1:
+    case 2:
+        console.log("Winter")
+        break;
+    case 3:
+    case 4:
+    case 5:
+        console.log("Spring")
+        break;
+    case 6:
+    case 7:
+    case 8:
+        console.log("Summer")
+        break;
+    case 9:
+    case 10:
+    case 11:
+        console.log("Autumn")
+}
 
 
 
