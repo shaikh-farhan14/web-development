@@ -31,16 +31,32 @@ value && value.forEach(element => {
     const description = document.createElement("h5")
     const category = document.createElement("h6")
     const price = document.createElement("p")
-const title = document.createElement("p")
-const rate = document.createElement("p")
-const div = document.createElement("div")
-const div = document.createElement("div")
+    const title = document.createElement("p")
+    const rate = document.createElement("p")
+    const count = document.createElement("p")
+    
+    div.class.name = 'card-div'
 
+    count.innertext=element.rating.count;
 
+    img.src=element.image;
 
+    description.innertext=element.description;
 
+    category.innertext =element.category;
 
+    price.innertext = element.price;
+
+    title.innertext = element.title;
+
+    rate.innerText = element.rate;
+
+    div.append(img,id,category,price,rate,count,title,description);
+
+    
+    AllData.append(div);
 
 });
-
 }
+
+bodys.addEventListener("load",apicall)
