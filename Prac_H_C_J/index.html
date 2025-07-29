@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fake Store</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="shortcut icon" href="https://miro.medium.com/v2/resize:fit:700/1*dgKuXkCYJCHAa50IlseeMg.png">
+</head>
+<body id="home-page" onload="datafetch()">
+    <nav>
+<p>
+    <img src="https://miro.medium.com/v2/resize:fit:700/1*dgKuXkCYJCHAa50IlseeMg.png" alt="logo">
+</p>
+    <ul>
+        <li>Home</li>
+        <li>Checkout</li>
+        <li onclick="changeToCart()">Cart</li>
+        <span></span>
+        <li onclick="changeToLogin()">Auth</li>
+    </ul>
+    <p>
+         <img src="../utils/person_24dp_000000_FILL0_wght400_GRAD0_opsz24.svg" alt="lgo">
+      </p>
+    </nav>
+    <section id="dataInfo"></section>
+</body>
+<script src="./index.js"></script>
+</html>
