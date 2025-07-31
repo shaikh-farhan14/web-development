@@ -13,18 +13,17 @@ const apicall = async () => {
 
 try{
     let response = await fetch(api);
-    let data = await response.json;
+    let data = await response.json();
     UserInterFace(data) 
 }
-catch{
-    console.error('-> ~ ApiCall ~ error;',error)
+catch (error){
+    console.log('-> ~ ApiCall ~ error;',error)
 }
 }
 
-const UserInterFace = (value) => {
-const AllData = document.querySelector('#allData')
-value && value.forEach(element => {
-    console.warn('-> ~ UserInterface ~ element;', element)
+    const UserInterFace = (value) => {
+    const AllData = document.querySelector('#allData')
+    value && value.forEach(element => {
     const div = document.createElement("div")
     const img = document.createElement("img")
     const id  = document.createElement("h4")
@@ -35,7 +34,7 @@ value && value.forEach(element => {
     const rate = document.createElement("p")
     const count = document.createElement("p")
     
-    div.class.name = 'card-div'
+    div.className = 'card-div'
 
     count.innertext=element.rating.count;
 
@@ -53,10 +52,9 @@ value && value.forEach(element => {
 
     div.append(img,id,category,price,rate,count,title,description);
 
-    
     AllData.append(div);
 
 });
 }
 
-bodys.addEventListener("load",apicall)
+bodys.addEventListener("load",apicall())
